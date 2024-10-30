@@ -1,0 +1,50 @@
+.captain-countdown-code {
+    font-family: "Courier New", Courier, monospace;
+    border: 1px solid #AAA;
+    border-radius: 5px 5px;
+    padding: 10px;
+    background: #FFF;
+}
+
+.captain-countdown-container {
+    display: block;
+    margin: 5px;
+    max-width: 200px;
+    min-width: 150px;
+    background: none;
+    border: none;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.captain-countdown-container > div {
+    padding: 5px;
+}
+
+.captain-countdown-title {
+    background: url(../assets/opacity.png);
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.captain-countdown-counter {
+    color: #000;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+
+.captain-countdown-date {
+    font-weight: bold;
+}
+
+.captain-countdown-counter .timerSupport {
+    font-size: 12px;
+    color: #000;
+    background: #FFF;
+    text-shadow: none;
+    border-radius: 5px;
+    padding: 5px;
+}
